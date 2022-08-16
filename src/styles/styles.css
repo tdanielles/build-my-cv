@@ -1,0 +1,70 @@
+#root {
+    display: grid;
+    background-color: #f3f1f3;
+}
+
+#main-container {
+    display: grid; 
+    grid-template-columns: auto auto auto;
+    grid-template-rows: 80px 1fr;
+    row-gap: 20px;
+    justify-items: center;
+    height: 100%;
+    width: 100%;
+}
+
+#inside-container {
+    grid-column: 2 / 3;
+    justify-items: center;
+    display: grid;
+    row-gap: 10px;
+    border: 2px solid #374958;
+    border-radius: 8px;
+    background-color: #ffffff;
+    padding: 25px;
+    margin-bottom: 40px;
+}
+
+.extra {
+    border: none !important;
+    background-color: #f3f1f3 !important;
+    padding: 0 0 40px 0 !important;
+    margin-bottom: 0 !important;
+}
+
+#inside-container button {
+    background-color: #2abd67;
+    font-family: "Poppins", sans-serif;
+    border: none;
+    padding: 10px;
+    width: 30%;
+    color: white;
+    border-radius: 12px;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+button:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+}
+
+button:active {
+    transform: scale(0.95);
+}
+
+#submit-btn {
+    justify-self: center;
+}
+
+#edit-btn {
+    margin-bottom: 10px;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+}
+
+input:focus {
+    outline: none;
+}

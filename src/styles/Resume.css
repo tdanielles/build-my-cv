@@ -1,0 +1,57 @@
+#resume {
+    min-height: 791px;
+    height: 100%;
+    width: 612px;
+    background-color: #FFF;
+    font-size: 14px;
+    padding: 20px 20px;
+    font-family: "Georgia";
+    border: 1.5px solid #374958;
+    border-radius: 8px;
+}
+
+#name {
+    font-size: 35px;
+    font-weight: 700;
+}
+
+#gen-info {
+    display: grid;
+    row-gap: 10px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.resume-heading {
+    font-size: 16px;
+    padding-top: 15px;
+}
+
+.institution {
+    font-weight: 700;
+}
+
+.company {
+    font-weight: 700;
+}
+
+.education, .work-exp {
+    display: grid;
+    row-gap: 8px;
+}
+
+.education:not(:last-child), .work-exp:not(:last-child) {
+    padding-bottom: 20px;
+}
+
+.education-top, .education-mid, .work-exp-top, .work-exp-mid, .work-exp-btm {
+    display: flex; 
+    justify-content: space-between;
+}
+
+.description {
+    display: grid;
+    row-gap: 8px;
+}

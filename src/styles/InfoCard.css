@@ -1,0 +1,92 @@
+.card {
+    width: 600px;
+    display: grid;
+    justify-items: start;
+    align-content: center;
+    row-gap: 20px;
+    padding: 20px;
+}
+
+.card-title {
+    font-weight: 600;
+    color: #374958;
+}
+
+.card-title-w-trash {
+    display: flex;
+    align-items: center;
+    position: relative;
+    width: 100%;
+}
+
+.card-title-w-trash i {
+    right: 0;
+    position: absolute;
+}
+
+.card-title-w-trash i:hover {
+    cursor: pointer;
+}
+
+.card form {
+    width: 100%;
+    display: grid;
+    row-gap: 10px;
+}
+
+.input-pair {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    column-gap: 10px;
+    justify-content: center;
+    align-items: center;
+    color: #374958;
+    font-size: 15px;
+}
+
+.input-pair label {
+    font-size: 13px;
+    font-weight: 500;
+}
+
+.tasks-container {
+    display: grid;
+    row-gap: 8px;
+}
+
+#add-task-btn {
+    width: 20%;
+}
+
+textarea {
+    resize: none;
+    font-family: inherit;
+    font-size: 12px;
+    border: 1px #374958 solid;
+    border-radius: 8px;
+    padding: 4px;
+    color: #374958;
+    padding-left: 10px;
+}
+
+input {
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+    border: 1px #374958 solid;
+    border-radius: 8px;
+    padding: 4px;
+    color: #374958;
+    padding-left: 10px;
+}
+
+i {
+    color: #374958;
+}
+
+i:hover {
+    transform: scale(1.15);
+}
+
+i:active {
+    transform: scale(0.85);
+}
